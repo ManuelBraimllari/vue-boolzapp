@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	padding: 1.5rem;
+	background: linear-gradient(to bottom, #009688 15%, #D8DBD6 15% 100%);
+}
+
+/*.left{
+    display: flex;
+    justify-content: space-between;
+    max-height: 70px;
+
+}
+
+.left .leftone img{
+    max-width: 50px;
+    border-radius: 50px;
+}
+*/
+
+.container{
+    display: flex;
+    flex: 0 0 100%;
+}
+
+.container .left{
+    flex: 0 0 35%;
+}
+
+.left .profilo{
+    height: 70px;
+    background-color: aqua;
+}
+
+.left .notifiche{
+    height: 70px;
+    background-color: blue;
+}
+
+.left .cerca{
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.left .chat{
+    background-color: red;
+}
+
+/* INIZIO PARTE DESTRA*/
+.container .right{
+    flex: 0 0 65%;
+}
+
+.right .soggetto{
+    height: 70px;
+    background-color: chartreuse;
+}
+
+.right .conversazione{
+    background-color: chocolate;
+}
+
+.right .messaggio{
+    height: 70px;
+    background-color: rgb(139, 0, 0);
+}
+
+
+
+
